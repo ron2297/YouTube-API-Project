@@ -4,6 +4,7 @@ ______
 ## Data Systems - CS 181
 ### Ron Washington III & Z Elmandouh
 
+## Provenance
 > For this project, we are using the YouTube Data API and are using OAuth2 in order to access the data of an authenticated user. The purpose of this project is to enable a YouTube account to gather its own personal data and or data from YouTube and produce JSON files of authentication tokens. The given tokens will then be used within a later Jupyter Notebook to enable data collection. From there, authenticated users will be able to gather and manipulate YouTube data.
 
 > Within the OAuth2 process, we are creating a project from a Google account with an associated YouTube account as the resource owner account. A .py file is needed for this project which will include neccessary identificaiton such as the client_id, scope, redirect, and etc. This file will contain JSON information which will be used to protect the account's private information.
@@ -22,5 +23,8 @@ ______
 
 ______
 
-## Limitations / Future Investigation
-> Explain that limited to only one account's information and future investigation open to analyzing new stuff.
+## Limitations / Issues
+> The current structure of this program only allows for one use to be authenticated at a time. Therefore, the data that will be gathered will only be relative to that one account. It would be advised in future usage of this program to enable it to enable multiple authentications to gather larger data sets. Based on the multiple data sets, there investigators could compare the statistics of videos within each account and trending.
+
+> Another issue regarding this program is that it requires users to follow the format of input for authenticating a user. Meaning that the account being used is limited to Google - gmail. Thus, outside accounts would not be enabled. Additionally, there is not a documentation on extra syntax that could be used to gather more statistics; however, this information can be found on Google's YouTube API website.
+
